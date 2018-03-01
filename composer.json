@@ -1,12 +1,7 @@
 {
-  "name": "craftcms/craft",
+  "name": "familiar-studio/craft",
   "description": "Craft CMS",
-  "keywords": [
-    "craft",
-    "cms",
-    "craftcms",
-    "project"
-  ],
+  "keywords": ["craft", "cms", "craftcms", "project"],
   "license": "MIT",
   "homepage": "https://craftcms.com/",
   "type": "project",
