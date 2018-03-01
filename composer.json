@@ -25,7 +25,17 @@
     "roave/security-advisories": "dev-master",
     "craftcms/redactor": "1.0.1",
     "craftcms/element-api": "2.5.2",
-    "nystudio107/craft-typogrify": "1.1.7"
+    "nystudio107/craft-typogrify": "1.1.7",
+    "charliedev/element-map": "1.0.2",
+    "doublesecretagency/craft-smartmap": "3.0.1",
+    "mmikkel/cp-field-inspect": "1.0.2",
+    "amimpact/command-palette": "3.1.0",
+    "studioespresso/defaulttab": "1.2.2",
+    "markdrzy/importable": "v1.0.1",
+    "lukeyouell/craft-mailchimplists": "1.0.5",
+    "wbrowar/contentstats": "2.0.0",
+    "flipboxfactory/craft-postmark": "1.0.0-rc.1.1",
+    "topshelfcraft/wordsmith": "3.0.2"
   },
   "autoload": {
     "psr-4": {

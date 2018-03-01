@@ -4,8 +4,70 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "006ca150b1ef03d3e9c176225e261f9a",
+    "content-hash": "43acfbe2d788283f0aace09801cbaa8d",
     "packages": [
+        {
+            "name": "amimpact/command-palette",
+            "version": "3.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/am-impact/amcommand/zipball/d0b8bca9f5d2393e4a4edd15f652dadedd32d4cf",
+                "reference": "d0b8bca9f5d2393e4a4edd15f652dadedd32d4cf",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Command Palette",
+                "handle": "command-palette",
+                "version": "3.1.0",
+                "schemaVersion": "3.0.0",
+                "hasSettings": true,
+                "hasCpSection": true,
+                "developer": "a&m impact",
+                "developerUrl": "http://www.am-impact.nl",
+                "description": "Command palette in Craft.",
+                "changelogUrl": "https://raw.githubusercontent.com/am-impact/amcommand/craft3/CHANGELOG.md",
+                "documentationUrl": "https://github.com/am-impact/amcommand/blob/master/README.md",
+                "components": {
+                    "entries": "amimpact\\commandpalette\\services\\Entries",
+                    "general": "amimpact\\commandpalette\\services\\General",
+                    "globals": "amimpact\\commandpalette\\services\\Globals",
+                    "plugins": "amimpact\\commandpalette\\services\\Plugins",
+                    "search": "amimpact\\commandpalette\\services\\Search",
+                    "settings": "amimpact\\commandpalette\\services\\Settings",
+                    "tasks": "amimpact\\commandpalette\\services\\Tasks",
+                    "utilities": "amimpact\\commandpalette\\services\\Utilities",
+                    "users": "amimpact\\commandpalette\\services\\Users"
+                },
+                "class": "amimpact\\commandpalette\\CommandPalette"
+            },
+            "autoload": {
+                "psr-4": {
+                    "amimpact\\commandpalette\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "a&m impact",
+                    "homepage": "http://www.am-impact.nl"
+                }
+            ],
+            "description": "Command palette in Craft.",
+            "keywords": [
+                "cms",
+                "command",
+                "craft",
+                "craftcms",
+                "plugin"
+            ],
+            "time": "2017-12-04T14:58:59+00:00"
+        },
         {
             "name": "cebe/markdown",
             "version": "1.1.2",
@@ -60,6 +122,59 @@
                 "markdown-extra"
             ],
             "time": "2017-07-16T21:13:23+00:00"
+        },
+        {
+            "name": "charliedev/element-map",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/charliedevelopment/craft3-element-map/zipball/ea63f6c8c61eeaee0341b82ab6c6c4d146fd795c",
+                "reference": "ea63f6c8c61eeaee0341b82ab6c6c4d146fd795c",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Element Map",
+                "handle": "element-map",
+                "changelogUrl": "https://raw.githubusercontent.com/charliedevelopment/craft3-element-map/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/charliedevelopment/craft3-element-map/archive/master.zip",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "class": "charliedev\\elementmap\\ElementMap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "charliedev\\elementmap\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie Development",
+                    "email": "support@charliedev.com",
+                    "homepage": "http://charliedev.com/"
+                }
+            ],
+            "description": "Simple visualization panel that lists related elements in their associated editors.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craftcms",
+                "element",
+                "widget"
+            ],
+            "support": {
+                "issues": "https://github.com/charliedevelopment/craft3-element-map/issues?state=open",
+                "source": "https://github.com/charliedevelopment/craft3-element-map",
+                "email": "support@charliedev.com"
+            },
+            "time": "2018-01-06T22:30:06+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -673,6 +788,48 @@
             "time": "2017-06-12T01:10:27+00:00"
         },
         {
+            "name": "davechild/textstatistics",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaveChild/Text-Statistics/zipball/6196462b4fe730a8ff0019036baf362295c161b3",
+                "reference": "6196462b4fe730a8ff0019036baf362295c161b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-bcmath": "More accurate floating point calculations.",
+                "ext-mbstring": "Handle multi-byte text properly."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "DaveChild\\TextStatistics": "src"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Child",
+                    "email": "dave@addedbytes.com",
+                    "homepage": "https://www.addedbytes.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP package to measure the readability of text according to various algorithms.",
+            "homepage": "https://github.com/DaveChild/Text-Statistics",
+            "time": "2015-04-22T14:55:55+00:00"
+        },
+        {
             "name": "doctrine/lexer",
             "version": "v1.0.1",
             "dist": {
@@ -720,6 +877,57 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "doublesecretagency/craft-smartmap",
+            "version": "3.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doublesecretagency/craft-smartmap/zipball/a9bd5e894e9ff1548429452aaade350569bc180a",
+                "reference": "a9bd5e894e9ff1548429452aaade350569bc180a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC4"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Smart Map",
+                "handle": "smart-map",
+                "class": "doublesecretagency\\smartmap\\SmartMap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "doublesecretagency\\smartmap\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Double Secret Agency",
+                    "homepage": "https://www.doublesecretagency.com/plugins"
+                }
+            ],
+            "description": "The most comprehensive proximity search and mapping tool for Craft.",
+            "keywords": [
+                "address",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "google-maps",
+                "locations",
+                "map",
+                "proximity-search",
+                "smart-map"
+            ],
+            "support": {
+                "docs": "https://www.doublesecretagency.com/plugins/smart-map/docs",
+                "issues": "https://github.com/doublesecretagency/craft-smartmap/issues"
+            },
+            "time": "2018-02-26T19:49:00+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -839,6 +1047,80 @@
             "time": "2017-12-06T15:31:26+00:00"
         },
         {
+            "name": "erusev/parsedown",
+            "version": "1.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/6678d59be48c4be64eaca6ce70bea48a09488cc2",
+                "reference": "6678d59be48c4be64eaca6ce70bea48a09488cc2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2018-02-28T11:41:37+00:00"
+        },
+        {
+            "name": "erusev/parsedown-extra",
+            "version": "0.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParsedownExtra": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "An extension of Parsedown that adds support for Markdown Extra.",
+            "homepage": "https://github.com/erusev/parsedown-extra",
+            "keywords": [
+                "markdown",
+                "markdown extra",
+                "parsedown",
+                "parser"
+            ],
+            "time": "2015-11-01T10:19:22+00:00"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.10.0",
             "dist": {
@@ -879,6 +1161,85 @@
                 "html"
             ],
             "time": "2018-02-23T01:58:20+00:00"
+        },
+        {
+            "name": "flipboxdigital/swiftmailer-postmark",
+            "version": "3.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flipbox/swiftmailer-postmark/zipball/10425a2a8871353428e197efd7c44210b3003692",
+                "reference": "10425a2a8871353428e197efd7c44210b3003692",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "swiftmailer/swiftmailer": "~6.0"
+            },
+            "suggest": {
+                "wildbit/laravel-postmark-provider": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Postmark\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Postmark",
+                    "email": "support@postmarkapp.com"
+                }
+            ],
+            "description": "A Swiftmailer Transport for Postmark.",
+            "time": "2017-12-04T14:37:58+00:00"
+        },
+        {
+            "name": "flipboxfactory/craft-postmark",
+            "version": "1.0.0-rc.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flipboxfactory/craft-postmark/zipball/9174cbecb32aaa29dd00ae58b7c2d97ba3939281",
+                "reference": "9174cbecb32aaa29dd00ae58b7c2d97ba3939281",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "~3.0.0-RC1",
+                "flipboxdigital/swiftmailer-postmark": "^3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Postmark",
+                "handle": "postmark",
+                "class": "flipbox\\postmark\\Postmark",
+                "developer": "Flipbox Digital",
+                "developerUrl": "https://www.flipboxdigital.com",
+                "changelogUrl": "https://raw.githubusercontent.com/flipboxfactory/craft-postmark/master/CHANGELOG.md",
+                "downloadUrl": "https://github.com/flipboxfactory/craft-postmark/archive/master.zip"
+            },
+            "autoload": {
+                "psr-4": {
+                    "flipbox\\postmark\\": "src/"
+                }
+            },
+            "description": "Postmark mail adapter",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "mailer",
+                "postmark",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@flipboxfactory.com",
+                "issues": "https://github.com/flipboxfactory/craft-postmark/issues?state=open",
+                "source": "https://github.com/flipboxfactory/craft-postmark",
+                "docs": "https://github.com/flipboxfactory/craft-postmark",
+                "rss": "https://github.com/flipboxfactory/craft-postmark/commits/master.atom"
+            },
+            "time": "2017-12-05T20:22:26+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1045,6 +1406,52 @@
                 "url"
             ],
             "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "icanboogie/inflector",
+            "version": "v1.4.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/a875d3c16215327e1a2555592b167ae2591c5c2f",
+                "reference": "a875d3c16215327e1a2555592b167ae2591c5c2f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ],
+                "files": [
+                    "lib/helpers.php"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Olivier Laviale",
+                    "email": "olivier.laviale@gmail.com",
+                    "homepage": "http://www.weirdog.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Multilingual inflector that transforms words from singular to plural, underscore to camel case, and more.",
+            "homepage": "http://icanboogie.org/",
+            "keywords": [
+                "camelize",
+                "hyphenate",
+                "inflect",
+                "multilingual",
+                "pluralize",
+                "singularize",
+                "underscore"
+            ],
+            "time": "2017-06-30T13:16:14+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1303,6 +1710,109 @@
             "time": "2017-04-25T14:43:14+00:00"
         },
         {
+            "name": "lukeyouell/craft-mailchimplists",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukeyouell/craft-mailchimplists/zipball/67cb53cd75edc0a0426dde3b40c655f175c134fa",
+                "reference": "67cb53cd75edc0a0426dde3b40c655f175c134fa",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC11"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "MailChimp Lists",
+                "handle": "mailchimp-lists",
+                "hasCpSettings": true,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/lukeyouell/craft-mailchimplists/v1/CHANGELOG.md",
+                "components": {
+                    "mailchimpListsService": "lukeyouell\\mailchimplists\\services\\MailchimpListsService"
+                },
+                "class": "lukeyouell\\mailchimplists\\MailchimpLists"
+            },
+            "autoload": {
+                "psr-4": {
+                    "lukeyouell\\mailchimplists\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luke Youell",
+                    "homepage": "https://github.com/lukeyouell"
+                }
+            ],
+            "description": "Create, manage and monitor your MailChimp Lists from within Craft.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "mailchimp",
+                "mailchimp lists"
+            ],
+            "support": {
+                "docs": "https://github.com/lukeyouell/craft-mailchimplists/blob/v1/README.md",
+                "issues": "https://github.com/lukeyouell/craft-mailchimplists/issues"
+            },
+            "time": "2018-02-26T10:02:26+00:00"
+        },
+        {
+            "name": "markdrzy/importable",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markdrzy/craft3-importable/zipball/29b47267c67c99ff6dd4831a556b256cadaca6b9",
+                "reference": "29b47267c67c99ff6dd4831a556b256cadaca6b9",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Importable",
+                "handle": "importable",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/markdrzy/craft3-importable/master/CHANGELOG.md",
+                "class": "markdrzy\\importable\\Importable"
+            },
+            "autoload": {
+                "psr-4": {
+                    "markdrzy\\importable\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Drzycimski",
+                    "homepage": "https://clickrain.com/about/mark-drzycimski"
+                }
+            ],
+            "description": "Add CSV data import functionality to the native Table fieldtype.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "importable"
+            ],
+            "support": {
+                "docs": "https://github.com/markdrzy/craft3-importable/blob/master/README.md",
+                "issues": "https://github.com/markdrzy/craft3-importable/issues"
+            },
+            "time": "2017-12-29T17:51:34+00:00"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.3.0",
             "dist": {
@@ -1430,6 +1940,86 @@
                 "shell"
             ],
             "time": "2017-06-30T06:21:01+00:00"
+        },
+        {
+            "name": "mmikkel/cp-field-inspect",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmikkel/CpFieldInspect-Craft/zipball/9f82dabec47232f4f59b47185c728b5eb2e3e7dd",
+                "reference": "9f82dabec47232f4f59b47185c728b5eb2e3e7dd",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "CP Field Inspect",
+                "handle": "cp-field-inspect",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/mmikkel/cp-field-inspect/master/CHANGELOG.md",
+                "class": "mmikkel\\cpfieldinspect\\CpFieldInspect"
+            },
+            "autoload": {
+                "psr-4": {
+                    "mmikkel\\cpfieldinspect\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mats Mikkel Rummelhoff",
+                    "homepage": "http://mmikkel.no"
+                }
+            ],
+            "description": "Inspect field handles and easily edit field settings",
+            "keywords": [
+                "cms",
+                "cp field inspect",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/mmikkel/cp-field-inspect/blob/master/README.md",
+                "issues": "https://github.com/mmikkel/cp-field-inspect/issues"
+            },
+            "time": "2017-12-07T00:38:50+00:00"
+        },
+        {
+            "name": "mofodojodino/profanity-filter",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mofodojodino/ProfanityFilter/zipball/529d24adcdb5b9507a4622db6aba6e54c5bb82a9",
+                "reference": "529d24adcdb5b9507a4622db6aba6e54c5bb82a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dean Tedesco",
+                    "email": "dino@tedesco.net.au"
+                }
+            ],
+            "description": "Filters out profanities from strings.",
+            "time": "2016-05-11T00:19:07+00:00"
         },
         {
             "name": "mundschenk-at/php-typography",
@@ -1997,6 +2587,50 @@
             "time": "2015-10-13T18:44:15+00:00"
         },
         {
+            "name": "studioespresso/defaulttab",
+            "version": "1.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studioespresso/craft3-defaulttab/zipball/c460e083ce0c26a3e09a9488264a7c8ba07d5d22",
+                "reference": "c460e083ce0c26a3e09a9488264a7c8ba07d5d22",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Default Tab",
+                "handle": "defaulttab",
+                "class": "studioespresso\\defaulttab\\DefaultTab"
+            },
+            "autoload": {
+                "psr-4": {
+                    "studioespresso\\defaulttab\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Studio Espresso",
+                    "homepage": "https://studioespresso.co"
+                }
+            ],
+            "description": "Add a standard tab to your new sections",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "utility",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@studioespresso.co",
+                "issues": "https://github.com/studioespresso/craft3-defaulttab/issues",
+                "source": "https://github.com/studioespresso/craft3-defaulttab",
+                "docs": "https://github.com/studioespresso/craft3-defaulttab"
+            },
+            "time": "2017-12-13T18:51:55+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.0.2",
             "dist": {
@@ -2348,6 +2982,116 @@
             "time": "2017-07-13T13:05:09+00:00"
         },
         {
+            "name": "tcb13/substringy",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TCB13/SubStringy/zipball/ddf4ea3e13b1c96446ef2c71950882b06121ab66",
+                "reference": "ddf4ea3e13b1c96446ef2c71950882b06121ab66",
+                "shasum": ""
+            },
+            "require": {
+                "danielstjules/stringy": "^3.1",
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SubStringy\\": "src/"
+                },
+                "files": [
+                    "src/Create.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tadeu Bento",
+                    "email": "tcb13@iklive.org",
+                    "homepage": "http://www.iklive.org"
+                }
+            ],
+            "description": "A sub string manipulation library with multibyte support that extends Stringy",
+            "homepage": "https://github.com/tcb13/SubStringy",
+            "keywords": [
+                "UTF",
+                "helpers",
+                "manipulation",
+                "methods",
+                "multibyte",
+                "string",
+                "substring",
+                "utf-8",
+                "utility",
+                "utils"
+            ],
+            "time": "2017-10-10T16:40:59+00:00"
+        },
+        {
+            "name": "topshelfcraft/wordsmith",
+            "version": "3.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TopShelfCraft/Wordsmith/zipball/44b7ca6fa1ad4b4b645dd52fcb4cd06ffd5f215a",
+                "reference": "44b7ca6fa1ad4b4b645dd52fcb4cd06ffd5f215a",
+                "shasum": ""
+            },
+            "require": {
+                "danielstjules/stringy": "~3.1.0",
+                "davechild/textstatistics": "^1.0",
+                "erusev/parsedown-extra": "^0.7.1",
+                "icanboogie/inflector": "^1.4",
+                "mofodojodino/profanity-filter": "^1.3",
+                "mundschenk-at/php-typography": "^6.0",
+                "tcb13/substringy": "^1.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Wordsmith",
+                "handle": "wordsmith",
+                "schemaVersion": "0.0.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/topshelfcraft/wordsmith/master/CHANGELOG.md",
+                "components": {
+                    "emoji": "topshelfcraft\\wordsmith\\services\\EmojiService",
+                    "smith": "topshelfcraft\\wordsmith\\services\\WordsmithService",
+                    "typography": "topshelfcraft\\wordsmith\\services\\TypographyService"
+                },
+                "class": "topshelfcraft\\wordsmith\\Wordsmith"
+            },
+            "autoload": {
+                "psr-4": {
+                    "topshelfcraft\\wordsmith\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Rog",
+                    "homepage": "https://topshelfcraft.com"
+                }
+            ],
+            "description": "...because you have the best words.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "wordsmith"
+            ],
+            "support": {
+                "docs": "https://wordsmith.docs.topshelfcraft.com/",
+                "issues": "https://github.com/topshelfcraft/wordsmith/issues"
+            },
+            "time": "2017-12-31T18:01:39+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v2.4.4",
             "dist": {
@@ -2457,6 +3201,58 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wbrowar/contentstats",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wbrowar/craft-3-contentstats/zipball/a752dbad630513515580c21ce6720088cdec0a03",
+                "reference": "a752dbad630513515580c21ce6720088cdec0a03",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC11"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Content Stats",
+                "handle": "content-stats",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/wbrowar/content-stats/master/CHANGELOG.md",
+                "components": {
+                    "entryCount": "wbrowar\\contentstats\\services\\EntryCount"
+                },
+                "class": "wbrowar\\contentstats\\ContentStats"
+            },
+            "autoload": {
+                "psr-4": {
+                    "wbrowar\\contentstats\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Will Browar",
+                    "homepage": "http://wbrowar.com"
+                }
+            ],
+            "description": "Display info about your site's entries.",
+            "keywords": [
+                "cms",
+                "content stats",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/wbrowar/content-stats/blob/master/README.md",
+                "issues": "https://github.com/wbrowar/content-stats/issues"
+            },
+            "time": "2018-02-22T04:39:53+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -2956,7 +3752,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "craftcms/cms": 5,
-        "roave/security-advisories": 20
+        "roave/security-advisories": 20,
+        "flipboxfactory/craft-postmark": 5
     },
     "prefer-stable": false,
     "prefer-lowest": false,
