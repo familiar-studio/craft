@@ -10,18 +10,28 @@ Learn more about Craft at [craftcms.com](https://craftcms.com).
 
 See the Craft 3 documentation for [installation](https://github.com/craftcms/docs/blob/v3/en/installation.md) and [updating](https://github.com/craftcms/docs/blob/v3/en/upgrade.md) instructions.
 
+## Setup Instructions
+
+* Clone repo
+* Run `composer install`
+* Run `yarn`
+* Create database named `craft`
+* go to `craft.test/admin` to install
+
 ## Resources
 
 #### Official Resources
-- [Craft 3 Documentation](https://github.com/craftcms/docs)
-- [Craft 3 Class Reference](https://docs.craftcms.com/api/v3/)
-- [Craft 3 Plugins](https://plugins.craftcms.com)
-- [Demo site](https://demo.craftcms.com/)
-- [Craft Slack](https://craftcms.com/community#slack)
-- [Craft CMS Stack Exchange](http://craftcms.stackexchange.com/)
+
+* [Craft 3 Documentation](https://github.com/craftcms/docs)
+* [Craft 3 Class Reference](https://docs.craftcms.com/api/v3/)
+* [Craft 3 Plugins](https://plugins.craftcms.com)
+* [Demo site](https://demo.craftcms.com/)
+* [Craft Slack](https://craftcms.com/community#slack)
+* [Craft CMS Stack Exchange](http://craftcms.stackexchange.com/)
 
 #### Community Resources
-- [Mijingo](https://mijingo.com/craft) – Video courses and other learning resources
-- [Envato Tuts+](https://webdesign.tutsplus.com/categories/craft-cms/courses) – Video courses
-- [Straight Up Craft](http://straightupcraft.com/) – Articles, tutorials, and more
-- [pluginfactory.io](https://pluginfactory.io/) – Craft plugin scaffold generator
+
+* [Mijingo](https://mijingo.com/craft) – Video courses and other learning resources
+* [Envato Tuts+](https://webdesign.tutsplus.com/categories/craft-cms/courses) – Video courses
+* [Straight Up Craft](http://straightupcraft.com/) – Articles, tutorials, and more
+* [pluginfactory.io](https://pluginfactory.io/) – Craft plugin scaffold generator

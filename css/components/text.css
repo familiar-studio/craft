@@ -1,0 +1,23 @@
+h1 {
+  @apply text-3xl font-bold   tracking-normal leading-none;
+}
+
+h2 {
+  @apply text-2xl font-bold   tracking-wide leading-tight;
+}
+
+h3 {
+  @apply text-2xl font-bold  font-medium tracking-wide leading-normal;
+}
+
+h4 {
+  @apply text-xl font-bold  tracking-wide leading-normal;
+}
+
+h5 {
+  @apply text-lg font-medium  tracking-normal leading-normal;
+}
+
+h6 {
+  @apply text-base font-bold uppercase  tracking-wide leading-normal;
+}

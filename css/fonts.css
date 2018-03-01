@@ -1,0 +1,29 @@
+/* example 
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("/fonts/SharpSansDispNo1-Semibold.woff2") format("woff2"),
+    url("/fonts/SharpSansDispNo1-Semibold.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("/fonts/SharpSansDispNo1-SemiboldIt.woff2") format("woff2"),
+    url("/fonts/SharpSansDispNo1-SemiboldIt.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("/fonts/SharpSansDispNo1-Bold.woff2") format("woff2"),
+    url("/fonts/SharpSansDispNo1-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("/fonts/SharpSansDispNo1-BoldIt.woff2") format("woff2"),
+    url("/fonts/SharpSansDispNo1-BoldIt.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+} */

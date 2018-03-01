@@ -1,0 +1,31 @@
+@tailwind utilities;
+
+/*TYPOGRAPHY */
+@responsive {
+  .measure {
+    max-width: 63ch;
+  }
+
+  .measure-narrow {
+    max-width: 35ch;
+  }
+
+  .measure-wide {
+    max-width: 75ch;
+  }
+}
+
+/* Project Specific Utility classes that don't exist in Tailwinds */
+
+/* TRANSITIONS */
+
+.transition-all {
+  transition: all 0.4s ease;
+}
+.transition-transform {
+  transition: transform 0.4s ease;
+}
+
+.transition-opacity {
+  transition: opacity 0.4s ease;
+}
