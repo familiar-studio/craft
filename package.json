@@ -1,13 +1,17 @@
 {
   "name": "craft",
   "version": "1.0.0",
-  "description": "<p align=\"center\"><a href=\"https://craftcms.com/\" target=\"_blank\"><img width=\"312\" height=\"90\" src=\"https://craftcms.com/craftcms.svg\" alt=\"Craft CMS\"></a></p>",
+  "description":
+    "<p align=\"center\"><a href=\"https://craftcms.com/\" target=\"_blank\"><img width=\"312\" height=\"90\" src=\"https://craftcms.com/craftcms.svg\" alt=\"Craft CMS\"></a></p>",
   "main": "gulpfile.js",
   "scripts": {
     "db": "npx gulp db",
-    "dev": "npx cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.dev.js",
-    "watch": "npx cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=webpack.dev.js",
-    "prod": "npx cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=webpack.prod.js",
+    "dev":
+      "npx cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=webpack.dev.js",
+    "watch":
+      "npx cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=webpack.dev.js",
+    "prod":
+      "npx cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=webpack.prod.js",
     "postinstall": "composer install",
     "setup": "npx gulp setup",
     "assets": "npx gulp assets"
@@ -63,8 +67,8 @@
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.8.0",
     "vue-template-compiler": "^2.5.13",
-    "webpack": "^4.0.1",
-    "webpack-merge": "^4.1.1"
+    "webpack": "^3.11.0",
+    "webpack-merge": "^3.0.0"
   },
   "devDependencies": {
     "webpack-cli": "^2.0.9"
