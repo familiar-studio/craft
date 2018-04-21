@@ -8,7 +8,7 @@ Learn more about Craft at [craftcms.com](https://craftcms.com).
 
 ## How to Install Craft 3
 
-See the Craft 3 documentation for [installation](https://github.com/craftcms/docs/blob/v3/en/installation.md) and [updating](https://github.com/craftcms/docs/blob/v3/en/upgrade.md) instructions.
+See the Craft 3 documentation for [installation](https://docs.craftcms.com/v3/installation.html) and [updating](https://docs.craftcms.com/v3/updating.html) instructions.
 
 ## Setup Instructions
 
@@ -21,13 +21,12 @@ See the Craft 3 documentation for [installation](https://github.com/craftcms/doc
 ## Resources
 
 #### Official Resources
-
-* [Craft 3 Documentation](https://github.com/craftcms/docs)
-* [Craft 3 Class Reference](https://docs.craftcms.com/api/v3/)
-* [Craft 3 Plugins](https://plugins.craftcms.com)
-* [Demo site](https://demo.craftcms.com/)
-* [Craft Slack](https://craftcms.com/community#slack)
-* [Craft CMS Stack Exchange](http://craftcms.stackexchange.com/)
+- [Craft 3 Documentation](https://docs.craftcms.com/v3/)
+- [Craft 3 Class Reference](https://docs.craftcms.com/api/v3/)
+- [Craft 3 Plugins](https://plugins.craftcms.com)
+- [Demo site](https://demo.craftcms.com/)
+- [Craft Slack](https://craftcms.com/community#slack)
+- [Craft CMS Stack Exchange](http://craftcms.stackexchange.com/)
 
 #### Community Resources
 

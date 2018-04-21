@@ -4,6 +4,8 @@
  *
  * All of your system's general configuration settings go in here. You can see a
  * list of the available settings in vendor/craftcms/cms/src/config/GeneralConfig.php.
+ *
+ * @see craft\config\GeneralConfig
  */
 
 return [
@@ -15,7 +17,7 @@ return [
         // Enable CSRF Protection (recommended)
         'enableCsrfProtection' => true,
 
-        // Whether "index.php" should be visible in URLs
+        // Whether generated URLs should omit "index.php"
         'omitScriptNameInUrls' => true,
 
         // Control Panel trigger word
